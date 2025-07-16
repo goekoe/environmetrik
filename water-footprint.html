@@ -1,47 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Water Footprint Calculator</title>
-  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 0 20px;
+    }
+    h1 {
+      color: #2b6777;
+    }
+    h2 {
+      color: #52ab98;
+      margin-top: 30px;
+    }
+    a {
+      color: #116466;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-  <div class="container">
-    <h1>💧 Water Footprint Calculator</h1>
+  <h1>Water Footprint Calculator</h1>
 
-    <p>
-      This interactive tool helps estimate the water footprint of various daily activities, such as food consumption, energy use, and household habits.
-    </p>
+  <p>
+    This is an interactive app that estimates your daily water footprint based on your lifestyle habits.
+    It uses food, consumption, and household activity inputs to calculate approximate water usage.
+  </p>
 
-    <h2>🔍 What It Does</h2>
-    <p>
-      The calculator allows users to enter their daily habits (e.g., shower duration, meat consumption, etc.) and provides an estimated total water footprint in liters/day or m³/year.
-    </p>
+  <h2>🔗 Live App</h2>
+  <p>
+    <a href="https://goekoe-waterfootprint.streamlit.app/" target="_blank">
+      👉 Launch the Streamlit App
+    </a>
+  </p>
 
-    <h2>🛠️ How It Works</h2>
-    <p>
-      Built with <strong>Python</strong> and <strong>Streamlit</strong>, this app uses default water consumption coefficients based on FAO and peer-reviewed studies. The underlying logic is transparent and easily adjustable.
-    </p>
+  <h2>🧠 Background</h2>
+  <p>
+    Water footprint is a key indicator of water use. It reflects both direct and indirect water usage.
+    This tool aims to increase awareness of personal consumption habits and their environmental impact.
+  </p>
 
-    <h2>🚀 Try It Online</h2>
-    <p>
-      👉 <a href="https://goekoe-waterfootprint.streamlit.app/" target="_blank">Launch the Calculator</a>
-    </p>
+  <h2>📂 Code Repository</h2>
+  <p>
+    <a href="https://github.com/goekoe/waterfootprint" target="_blank">
+      GitHub – Water Footprint Calculator
+    </a>
+  </p>
 
-    <h2>💻 Source Code</h2>
-    <p>
-      View the full codebase here:<br>
-      👉 <a href="https://github.com/goekoe/water-footprint-calculator" target="_blank">GitHub Repository</a>
-    </p>
+  <h2>📚 References</h2>
+  <ul>
+    <li>Mekonnen, M. M., & Hoekstra, A. Y. (2011). <i>The green, blue and grey water footprint of crops and derived crop products</i>. Hydrology and Earth System Sciences.</li>
+    <li>Water Footprint Network – <a href="https://waterfootprint.org/" target="_blank">https://waterfootprint.org/</a></li>
+  </ul>
 
-    <h2>📚 References</h2>
-    <ul>
-      <li>Hoekstra, A. Y., & Chapagain, A. K. (2007). Water footprints of nations: Water use by people as a function of their consumption pattern. <em>Water Resources Management</em>.</li>
-      <li>Mekonnen, M. M., & Hoekstra, A. Y. (2011). The green, blue and grey water footprint of crops and derived crop products. <em>Hydrology and Earth System Sciences</em>.</li>
-    </ul>
-
-    <p><a href="index.html">← Back to Home</a></p>
-  </div>
+  <p><a href="index.html">← Back to Home</a></p>
 </body>
 </html>
