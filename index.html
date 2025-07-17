@@ -1,48 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>environmetrik</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      max-width: 800px;
-      margin: 50px auto;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #2b6777;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+    }
+    header p {
+      margin-top: 10px;
+      font-size: 1rem;
+      color: #d4f1f4;
+    }
+    main {
+      max-width: 1000px;
+      margin: 40px auto;
       padding: 0 20px;
     }
-    h1 {
-      color: #2b6777;
-    }
     h2 {
-      color: #52ab98;
-      margin-top: 40px;
+      color: #2b6777;
+      margin-bottom: 10px;
     }
-    ul {
-      line-height: 1.8;
+    .project-card {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 30px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+      transition: box-shadow 0.3s ease;
     }
-    a {
+    .project-card:hover {
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .project-card a {
       color: #116466;
       text-decoration: none;
+      font-weight: bold;
     }
-    a:hover {
+    .project-card a:hover {
       text-decoration: underline;
+    }
+    footer {
+      margin-top: 60px;
+      padding: 20px 0;
+      text-align: center;
+      background-color: #f1f1f1;
+      font-size: 0.9em;
+      color: #666;
     }
   </style>
 </head>
 <body>
-  <h1>Welcome to environmetrik</h1>
-  <p>A knowledge hub for data-driven environmental science.</p>
 
-  <h2>Projects</h2>
-  <ul>
-    <li>
-      <a href="water-footprint.html">
-        Water Footprint Calculator – Interactive App and Analysis
-      </a>
-    </li>
-  </ul>
+  <header>
+    <h1>environmetrik</h1>
+    <p>Environmental Data Science & Insightful Applications</p>
+  </header>
 
-  <p>More content coming soon.</p>
+  <main>
+
+    <div class="project-card">
+      <h2>💧 Water Footprint Calculator</h2>
+      <p>
+        Estimate your daily water consumption based on your habits and choices.
+        Learn about direct and indirect water usage, powered by data from
+        the Water Footprint Network and scientific studies.
+      </p>
+      <p>
+        👉 <a href="water-footprint.html">Learn More & Launch the App</a>
+      </p>
+    </div>
+
+    <!-- Yeni projeler için kopyalanacak şablon:
+    <div class="project-card">
+      <h2>🚰 Project Title</h2>
+      <p>Short project description goes here.</p>
+      <p>
+        👉 <a href="project-page.html">Learn More & Launch the App</a>
+      </p>
+    </div>
+    -->
+
+  </main>
+
+  <footer>
+    © 2025 environmetrik – Created with a purpose. Not affiliated with any institution.
+  </footer>
+
 </body>
 </html>
